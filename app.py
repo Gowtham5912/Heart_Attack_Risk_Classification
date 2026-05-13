@@ -3,10 +3,10 @@ import pandas as pd
 import joblib
 
 # Load Model
-model = joblib.load('../model/heart_model.pkl')
+model = joblib.load('model/heart_model.pkl')
 
 # Load Scaler
-scaler = joblib.load('../model/scaler.pkl')
+scaler = joblib.load('model/scaler.pkl')
 
 # Title
 st.title("Heart Attack Risk Prediction System")
